@@ -1,0 +1,51 @@
+.progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.06);
+  z-index: 200;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--cyan), var(--purple));
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 8px var(--cyan);
+}
+
+.sectionLabel {
+  position: fixed;
+  bottom: 28px;
+  right: 44px;
+  z-index: 100;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, 0.22);
+  text-transform: uppercase;
+}
+
+.coords {
+  position: fixed;
+  bottom: 28px;
+  left: 44px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.coords span {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.18);
+  text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  .coords { display: none; }
+  .sectionLabel { right: 20px; font-size: 0.52rem; }
+}
