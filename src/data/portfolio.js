@@ -64,6 +64,20 @@ export const EXPERIENCE = [
   },
 ]
 
+// ── EDUCATION ─────────────────────────────────────────────────────────────
+export const EDUCATION = [
+  {
+    title: 'High School & Intermediate',
+    institution: 'Seth Anandram Jaipuria School, Ghaziabad',
+    icon: '🏫',
+  },
+  {
+    title: 'B.Tech — Computer Science Engineering',
+    institution: 'Dr. Bhimrao Ambedkar University, Agra',
+    icon: '🎓',
+  },
+]
+
 // ── PROJECTS ──────────────────────────────────────────────────────────────
 export const PROJECTS = [
   {

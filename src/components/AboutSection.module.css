@@ -37,12 +37,19 @@
   font-weight: 300;
 }
 
+.eduContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 26px;
+  width: 100%;
+}
+
 .edu {
   display: flex;
   align-items: center;
   gap: 14px;
-  margin-top: 28px;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.025);
@@ -135,10 +142,15 @@
     line-height: 1.7;
   }
 
+  .eduContainer {
+    margin-top: 20px;
+    gap: 10px;
+  }
+
   .edu {
     padding: 12px 14px;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 0;
   }
 
   .eduTitle { font-size: 0.82rem; }

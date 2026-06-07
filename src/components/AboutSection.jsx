@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import styles from './AboutSection.module.css'
+import { EDUCATION } from '../data/portfolio'
 
 const stats = [
   { num: '3+',  label: 'Companies' },
@@ -36,12 +37,16 @@ export default function AboutSection() {
           From brand identities to full-stack web applications — I build things that look stunning
           and work flawlessly.
         </p>
-        <div className={styles.edu}>
-          <div className={styles.eduIcon}>🎓</div>
-          <div>
-            <div className={styles.eduTitle}>B.Tech — Computer Science Engineering</div>
-            <div className={styles.eduSub}>Dr. Bhimrao Ambedkar University, Agra</div>
-          </div>
+        <div className={styles.eduContainer}>
+          {EDUCATION.map((edu, idx) => (
+            <div key={idx} className={styles.edu}>
+              <div className={styles.eduIcon}>{edu.icon}</div>
+              <div>
+                <div className={styles.eduTitle}>{edu.title}</div>
+                <div className={styles.eduSub}>{edu.institution}</div>
+              </div>
+            </div>
+          ))}
         </div>
       </motion.div>
 
