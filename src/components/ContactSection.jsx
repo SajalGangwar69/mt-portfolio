@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import styles from './ContactSection.module.css'
+import { SOCIALS } from '../data/portfolio'
 
 export default function ContactSection() {
   const [copied, setCopied] = useState(false)
@@ -30,7 +31,7 @@ export default function ContactSection() {
 
         <div className={styles.links}>
           <a
-            href="https://linkedin.com/in/sajal-gangwar"
+            href={SOCIALS.find(s => s.name === 'LinkedIn')?.href || '#'}
             target="_blank"
             rel="noreferrer"
             className={styles.link}
@@ -39,7 +40,7 @@ export default function ContactSection() {
             LinkedIn ↗
           </a>
           <a
-            href="https://instagram.com/ck.sajall.fu"
+            href={SOCIALS.find(s => s.name === 'Instagram')?.href || '#'}
             target="_blank"
             rel="noreferrer"
             className={styles.link}
@@ -48,7 +49,7 @@ export default function ContactSection() {
             Instagram ↗
           </a>
           <a
-            href="mailto:sajalgangwar2222@gmail.com"
+            href={SOCIALS.find(s => s.name === 'Email')?.href || '#'}
             className={styles.link}
             data-hover
           >

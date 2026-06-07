@@ -114,8 +114,8 @@ export const PROJECTS = [
 
 // ── SOCIAL LINKS ──────────────────────────────────────────────────────────
 export const SOCIALS = [
-  { label: 'LI',  href: 'https://linkedin.com/in/sajal-gangwar',    name: 'LinkedIn'  },
-  { label: 'IG',  href: 'https://instagram.com/ck.sajall.fu',       name: 'Instagram' },
+  { label: 'LI',  href: 'https://www.linkedin.com/in/sajal-gangwar-69abc',    name: 'LinkedIn'  },
+  { label: 'IG',  href: 'https://www.instagram.com/ck.sajal.fu?igsh=anE0eHJzbTQ4anVy',       name: 'Instagram' },
   { label: 'YT',  href: '#',                                         name: 'YouTube'   },
   { label: '@',   href: 'mailto:sajalgangwar2222@gmail.com',         name: 'Email'     },
 ]
