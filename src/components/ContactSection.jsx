@@ -40,6 +40,15 @@ export default function ContactSection() {
             LinkedIn ↗
           </a>
           <a
+            href={SOCIALS.find(s => s.name === 'GitHub')?.href || '#'}
+            target="_blank"
+            rel="noreferrer"
+            className={styles.link}
+            data-hover
+          >
+            GitHub ↗
+          </a>
+          <a
             href={SOCIALS.find(s => s.name === 'Instagram')?.href || '#'}
             target="_blank"
             rel="noreferrer"

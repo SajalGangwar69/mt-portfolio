@@ -52,4 +52,5 @@ This website is designed as an immersive interactive interface using **Three.js 
 
 * **Email:** [sajalgangwar2222@gmail.com](mailto:sajalgangwar2222@gmail.com)
 * **LinkedIn:** [linkedin.com/in/sajal-gangwar](https://linkedin.com/in/sajal-gangwar)
+* **GitHub:** [github.com/SajalGangwar69](https://github.com/SajalGangwar69)
 * **Instagram:** [@ck.sajall.fu](https://instagram.com/ck.sajall.fu)
