@@ -41,7 +41,7 @@ export default function HeroSection({ goTo }) {
         <button className={styles.btnPrimary} onClick={() => goTo(4)} data-hover>
           View Projects
         </button>
-        <button className={styles.btnGhost} onClick={() => goTo(5)} data-hover>
+        <button className={styles.btnGhost} onClick={() => goTo(6)} data-hover>
           Get In Touch
         </button>
       </motion.div>

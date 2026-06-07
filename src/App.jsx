@@ -12,6 +12,7 @@ import AboutSection from './components/AboutSection'
 import SkillsSection from './components/SkillsSection'
 import ExperienceSection from './components/ExperienceSection'
 import ProjectsSection from './components/ProjectsSection'
+import GitHubSection from './components/GitHubSection'
 import ContactSection from './components/ContactSection'
 import MouseTrail from './components/MouseTrail'
 
@@ -25,6 +26,7 @@ const SECTIONS = [
   SkillsSection,
   ExperienceSection,
   ProjectsSection,
+  GitHubSection,
   ContactSection,
 ]
 

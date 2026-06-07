@@ -5,7 +5,8 @@ export const NAV_ITEMS = [
   { label: 'Skills',     id: 2 },
   { label: 'Experience', id: 3 },
   { label: 'Projects',   id: 4 },
-  { label: 'Contact',    id: 5 },
+  { label: 'GitHub',     id: 5 },
+  { label: 'Contact',    id: 6 },
 ]
 
 export const SECTION_LABELS = [
@@ -14,8 +15,15 @@ export const SECTION_LABELS = [
   '03 / SKILLS',
   '04 / EXPERIENCE',
   '05 / PROJECTS',
-  '06 / CONTACT',
+  '06 / GITHUB',
+  '07 / CONTACT',
 ]
+
+export const GITHUB_PROFILE = {
+  username: 'SajalGangwar69',
+  url: 'https://github.com/SajalGangwar69',
+  contributionsApiUrl: 'https://github-contributions-api.jogruber.de/v4/SajalGangwar69?y=last',
+}
 
 
 export const SKILLS = [
@@ -142,5 +150,6 @@ export const CAM_POSITIONS = [
   { x: 0,   y: -3, z: 20 },   // Skills
   { x: 7,   y: 1,  z: 24 },   // Experience
   { x: -4,  y: -2, z: 18 },   // Projects
+  { x: 5,   y: -1, z: 24 },   // GitHub
   { x: 0,   y: 0,  z: 30 },   // Contact
 ]

@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { SECTION_LABELS } from '../data/portfolio'
 
-const TOTAL_SECTIONS = 6
+const TOTAL_SECTIONS = 7
 const TRANSITION_MS = 700
 const WHEEL_COOLDOWN_MS = 900
 const TOUCH_THRESHOLD = 40  // px – lower = more sensitive
