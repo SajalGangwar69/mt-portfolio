@@ -91,9 +91,37 @@
 }
 
 @media (max-width: 768px) {
-  .grid { grid-template-columns: repeat(3, 1fr); }
+  .skills {
+    padding: 0 16px;
+  }
+
+  .title {
+    margin-bottom: 28px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .node {
+    padding: 14px 8px;
+  }
+
+  .icon { font-size: 1.4rem; }
+  .name { font-size: 0.52rem; letter-spacing: 1px; }
 }
 
 @media (max-width: 480px) {
-  .grid { grid-template-columns: repeat(2, 1fr); }
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+
+  .node {
+    padding: 12px 6px;
+    gap: 6px;
+  }
+
+  .icon { font-size: 1.2rem; }
 }

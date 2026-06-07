@@ -131,5 +131,42 @@
 }
 
 @media (max-width: 860px) {
-  .grid { grid-template-columns: 1fr; }
+  .exp {
+    padding: 0 16px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .title {
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 20px 16px;
+  }
+
+  .icon { font-size: 1.3rem; }
+
+  .company {
+    font-size: 0.6rem;
+    letter-spacing: 1.5px;
+  }
+
+  .role { font-size: 0.88rem; }
+
+  .desc {
+    font-size: 0.8rem;
+    line-height: 1.65;
+    margin-bottom: 14px;
+  }
+
+  .tag {
+    font-size: 0.5rem;
+    padding: 3px 8px;
+  }
 }

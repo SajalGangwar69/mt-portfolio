@@ -177,5 +177,48 @@
 }
 
 @media (max-width: 700px) {
-  .grid { grid-template-columns: 1fr; }
+  .projects {
+    padding: 0 16px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .subtitle {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 20px 16px;
+  }
+
+  .badge {
+    font-size: 0.5rem;
+    padding: 3px 8px;
+    margin-bottom: 10px;
+  }
+
+  .name { font-size: 0.95rem; }
+
+  .desc {
+    font-size: 0.78rem;
+    line-height: 1.65;
+    margin-bottom: 12px;
+  }
+
+  .tag {
+    font-size: 0.5rem;
+    padding: 3px 7px;
+  }
+
+  .demoNote {
+    font-size: 0.76rem;
+    line-height: 1.6;
+  }
+
+  .viewBtn { font-size: 0.62rem; }
 }

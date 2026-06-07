@@ -37,3 +37,8 @@
   height: 64px;
   border-color: rgba(0, 245, 255, 0.65);
 }
+
+/* Hide custom cursor on touch / mobile devices */
+@media (hover: none) and (pointer: coarse) {
+  .dot, .ring { display: none; }
+}

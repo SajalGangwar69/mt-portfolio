@@ -38,6 +38,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* ── TOUCH DEVICES — restore native cursor & hide custom one ─────── */
+@media (hover: none) and (pointer: coarse) {
+  body { cursor: auto; }
+  /* The .dot / .ring custom cursor elements are hidden via component CSS */
+}
+
 /* ── SCROLLBAR ────────────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--dark2); }
